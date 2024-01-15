@@ -1,0 +1,104 @@
+#principal{
+    width: 33%;
+    height: 30em;
+    /*border: solid blue 3px;*/
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 2%;
+    
+}
+
+.nombre{
+    padding-right:78%;
+    padding-left: 2%;
+}
+
+#contenedor{
+    /*border: solid 2px brown;*/
+    width: 100%;
+    height: auto;
+}
+#contnent-titulo{
+/*border: solid 2px pink;*/
+/*width: 100%;*/
+justify-content: end;
+}
+
+h5{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+#foto-html{
+    padding-left: 3%;
+}
+
+#titulo-post{
+    width: 100%;
+    height: 10%;
+    /*border: solid black 3px;*/
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    /*border-radius: 5px;*/
+}
+
+#contenido-post{
+    width: 100%;
+    height: 65%;
+    /*border: solid green 5px;*/
+    align-items: center;
+}
+.img_abajo{
+    width: 35px;
+    height: 40px;
+}
+.img_abajo2{
+    width: 35px;
+    height: 40px;
+    margin-left: 70%;
+}
+#pie-post{
+    width: 100%;
+    height: auto;
+    /**border: solid black 3px;*/
+    background-color: white;
+    /*border-radius: 5px;*/
+}
+
+#foto1{
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    width: 80%;
+    margin-left: 2%;
+}
+
+#texto{
+    margin: 0;
+}
+
+
+#nombre-rigo{
+    font-weight: normal
+}
+
+#iconos{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.texto-abajo{
+    padding: 8px;
+    padding-top: 0;
+}
