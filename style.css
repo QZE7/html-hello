@@ -1,35 +1,44 @@
-#principal{
-    width: 33%;
-    height: 30em;
+#principal {
+    width: 40%;
+    height: 35em;
     /*border: solid blue 3px;*/
     border-radius: 5px;
     margin: 0 auto;
     margin-top: 2%;
-    
+
 }
 
-.nombre{
-    padding-right:78%;
-    padding-left: 2%;
+#foto-puntos {
+    float: right;
 }
 
-#contenedor{
+.nombre {
+    width: 10%;
+    margin-left: 1%;
+}
+
+.contenedor-foto-puntos {
+    width: 80%;
+}
+
+#contenedor {
     /*border: solid 2px brown;*/
     width: 100%;
     height: auto;
 }
-#contnent-titulo{
-/*border: solid 2px pink;*/
-/*width: 100%;*/
-justify-content: end;
+
+#contnent-titulo {
+    /*border: solid 2px pink;*/
+    /*width: 100%;*/
+    justify-content: end;
 }
 
-h5{
+h5 {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -37,36 +46,40 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-#foto-html{
+#foto-html {
     padding-left: 3%;
 }
 
-#titulo-post{
+#titulo-post {
     width: 100%;
     height: 10%;
     /*border: solid black 3px;*/
     display: flex;
     align-items: center;
     background-color: whitesmoke;
+
     /*border-radius: 5px;*/
 }
 
-#contenido-post{
+#contenido-post {
     width: 100%;
     height: 65%;
     /*border: solid green 5px;*/
     align-items: center;
 }
-.img_abajo{
+
+.img_abajo {
     width: 35px;
     height: 40px;
 }
-.img_abajo2{
+
+.img_abajo2 {
     width: 35px;
     height: 40px;
-    margin-left: 70%;
+    float: right;
 }
-#pie-post{
+
+#pie-post {
     width: 100%;
     height: auto;
     /**border: solid black 3px;*/
@@ -74,31 +87,48 @@ body{
     /*border-radius: 5px;*/
 }
 
-#foto1{
+#foto1 {
     width: 100%;
     height: 100%;
 }
 
-h3{
+h3 {
     width: 80%;
     margin-left: 2%;
 }
 
-#texto{
+#texto {
     margin: 0;
 }
 
 
-#nombre-rigo{
+#nombre-rigo {
     font-weight: normal
 }
 
-#iconos{
-    padding-top: 10px;
-    padding-left: 8px;
-}
 
-.texto-abajo{
+
+.texto-abajo {
     padding: 8px;
     padding-top: 0;
+    text-align: justify;
+}
+
+#foto-suelta {
+    margin-right: 1.5%;
+
+    width: 20%;
+}
+
+#iconos {
+    width: 80%;
+    margin-left: 1.5%;
+
+}
+
+#contendor-iconos {
+    display: flex;
+    padding-top: 1.5%;
+    width: 100%;
+
 }
