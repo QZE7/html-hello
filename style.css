@@ -132,3 +132,14 @@ h3 {
     width: 100%;
 
 }
+
+.logo{
+
+    height: 20px;
+
+    width: 12px;
+}
+
+.puntos{
+   float: right;
+}
